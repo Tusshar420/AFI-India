@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mobile        = $_POST['mobile'] ?? '';
     $email         = $_POST['email'] ?? '';
     $qualification = $_POST['qualification'] ?? '';
-    $programType   = $_POST['programType'] ?? '';
+    $programType   = 99; // Demo Program
     $basefare      = $_POST['basefare'] ?? 'INR 0';
     $basefare      = (int) filter_var($basefare, FILTER_SANITIZE_NUMBER_INT);
 
@@ -101,7 +101,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Certified Natural Health Ambassador (CNHA) Program</title>
+    <title>Certified Natural Health Ambassador (CNHA)- Demo Program</title>
     <link rel="stylesheet" href="https://afi-india.in/css/style.css">
     <link rel="stylesheet" href="https://afi-india.in/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://afi-india.in/css/responsive.css">
@@ -122,7 +122,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="col-lg-10">
 
                     <div class="course-content">
-                        <h2 class="section-title">Certified Natural Health Ambassador (CNHA)</h2>
+                        <h2 class="section-title">Certified Natural Health Ambassador – Demo Session </h2>
                         <p class="lead text-center"><b>अपने परिवार और समाज के स्वास्थ्य संरक्षक बनें! </b>
                             <br />
                             Be the True Health Guardian and Real-Life Hero for Your Family & Community!
@@ -135,8 +135,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <!--</div>-->
                         <p class="ntext"><strong>Date:</strong> 24 January 2026 Onwards(2 Class Weekly)<br>
                             <strong>Time:</strong> 7:00 PM Onwards<br>
-                            <strong>Mode:</strong> 100% Online (Join from Anywhere)<br>
-                            <strong>Eligibility:</strong> Post Graduated/ Graduated/ Intermediate/ High School
+                            <strong>Language:</strong> Hindi<br>
+                            <strong>Duration:</strong>90 Minutes (Live Online)<br>
+                            <strong>Registration:</strong> ₹99 ( ₹1000 crossed | Limited Seats)
+                            <strong>A Health Awareness & Education Program </strong> ₹99 ( ₹1000 crossed | Limited Seats)
                         </p>
                         <div class="imageParent">
                             <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why1.jpeg"
@@ -147,15 +149,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <h3 class="strip"> क्यों जुड़ना चाहिए? Why Join? </h3>
                             <ul class="ntext increaseLineHeight" style="list-style: inside;">
 
-                                <li>अपने शरीर के बारे में गहराई से समझें </li>
-                                <li>अस्पतालों के महंगे बिल से बचें, घर पर ही सरल उपाय सीखें </li>
-                                <li>छोटी-छोटी बीमारियों को बिना डर के Natural तरीकों से संभालना सीखें </li>
-                                <li>Sattvik lifestyle & Ayurveda-based prevention अपनाएँ </li>
-                                <li>खुद को और अपने परिवार को बनाइए Health Guardian </li>
-                                <li>समाज में स्वास्थ्य जागरूकता फैलाकर एक आदर्श भूमिका निभाइए </li>
-                            </ul>
-                            <div><i> 👉 Demo Session attendees receive a ₹500 discount coupon (valid for 48 hours after the session). </i></div>
+                                <li>आज हर घर में कोई न कोई गंभीर बीमारी मौजूद है - डायबिटीज, BP, मोटापा, तनाव</li>
+                                <li>महंगे इलाज/दवाइयों का बोझ </li>
+                                <li>Studies suggest: गंभीर बीमारी में कई परिवार कर्ज़/उधार पर निर्भर होते हैं 
+                                    <br/>👉 अब मय है इलाज के साथ-साथ preventive care अपनाने का
 
+                                </li>
+                            </ul>
                             <div class="imageParent">
                                 <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
                                     alt="CME Event 2">
@@ -163,163 +163,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
 
                         <div class="mt-5">
-                            <h2 class="mt-5"> Level 1 – <i> Foundation (4 Weeks)</i></h2>
-                            <p class="ntext" style="font-weight:500;text-align:center"> Certified Natural Health
-                                Ambassador </p>
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">आप क्या सीखेंगे (What You Will Learn?) </p>
-                            <p class="ntext" style="font-weight:800;font-size:22px">Ayurveda Basics </p>
+                            <p class="ntext" style="font-weight:500;text-align:center">About the Demo Session (90 Minutes)</p>
+                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">In this interactive introduction, you will discover:</p>
+                            <!-- <p class="ntext" style="font-weight:800;font-size:22px">Ayurveda Basics </p> -->
                             <ul class="ntext" style="list-style: inside;">
-                                <li>आयुर्वेद के मूल सिद्धांत Bio Energies (Body & Mind Dosha / Gunas) & Balance</li>
-                                <li>Body Prakriti Assessment</li>
-                                <li>Rasa - 6 Tastes & their effect on digestion & mind</li>
+                                <li>Current health challenges vs Ayurveda’s approach</li>
+                                <li>Why every family needs a Health Guardian</li>
+                                <li>Ayurveda basics explained in a simple way</li>
+                                <li>3 Easy & Ever-Useful Health Mantras for daily life (also need to change this line in prospectus content)</li>
+                                <li>Natural Preventive care secrets you can use at home</li>
+                                <li>Insights about the Certified Natural Health Ambassador Program (CNHA) - (Level 1 & Level 2)</li>
                             </ul>
+                            <div><i> 👉 This demo is your first step towards becoming a Certified Natural Health Ambassador.</i> </div>
+                            <div><i>Bonus for all attendees: Digital Health Companion PDF + Demo e-Certificate</i> </div>
 
-                            <p class="ntext" style="font-weight:800;font-size:22px">Lifestyle Secrets</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>Dinacharya & Ritucharya</li>
-                                <li>Daily routine hacks: water, food, sleep, yoga, and lifestyle routines</li>
-                                <li>Seasonal prevention tips</li>
-                            </ul>
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">Health Management</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>Daily health hacks (fever, acidity, stress, pain)</li>
-                                <li><b>LDP Protocol –</b> (Life of Disciplined People and role of the ANB Pillars around
-                                    this) → (Sattvik lifestyle, Diet, sleep, breathing, relaxation, Impact of emotions
-                                    on disease etc) </li>
-                                <li><b>S.A.M.A.Y. –</b> Simple Ayurveda Methods to Align Your Body with Time</li>
-                                <li><b>N.A.T.U.R.E. –</b> Natural Ayurveda Techniques Using Rhythms & Elements - Healing
-                                    through 5 Elements (Earth, Water, Fire, Air, Ether)</li>
-                                <li><b>V.R.A.T.–</b> Vital Renewal through Active Time-Fasting - A simple guide to
-                                    fasting for health, energy, and disease prevention</li>
-                                <li><b>Natural Remedies:</b> 10 simple herbs/spices every home must use.</li>
-                            </ul>
-
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">आपको क्या मिलेगा? (What You
-                                Receive?)</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>CNHA Level 1 Certificate</li>
-                                <li>Sampurna Swasthya Book – PDF</li>
-                                <li>Saatvik Ved – Printed Book Edition</li>
-                                <li>Lifetime WhatsApp Community Access</li>
-                                <li>Session-wise Digital Handouts (checklists, trackers, summaries)</li>
-                            </ul>
-
+                            <div class="imageParent">
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
+                                    alt="CME Event 2">
+                            </div>
+                            <h2 class="mt-5"> Registration Details:</i></h2>
                             <div style="display:flex;flex-direction:column; gap:8px;">
-                                <div> <b>Duration:</b> 4 Weeks | 8 Sessions (2 per week)</div>
-                                <div> <b>Course Value:</b><del> ₹11,000 </del> </div>
-                                <div> <b>Registration Fee:</b> ₹1,999 only <i>(Limited-time launch offer)</i> </div>
+                                <div> <b>Fee:</b> ₹99 only (Limited Seats)</div>
+                                <div> <b>Format:</b><del> Live Online (with Q&A) </del> </div>
+                                <div> <b>Next Batch:</b> <i>[Date Placeholder]</i> </div>
                                 <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
-                                <div> <i>👉 Demo Session attendees also get an extra ₹500 discount coupon. (Timer - expire in
-                                        48 Hours after the Demo session) </i> </div>
+                                <div> <i>⚡ 🎁 Complete the Demo Session and receive a ₹500 discount coupon for CNHA Level 1 or Level 2 enrollment.</i> </div>
 
                             </div>
 
-
-                            <h2 class="mt-5"> Level 2 – <i>Advanced Master (8 Weeks)</i></h2>
-                            <p class="ntext" style="font-weight:500;text-align:center"> Certified Natural Health
-                                Ambassador – Master   </p>
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">आप क्या सीखेंगे (What You Will Learn?) </p>
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">Lifestyle Disease Prevention & Diet
-                            </p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>Blood Pressure (B.P.), Diabetes, Thyroid, Obesity, High Cholesterol - Early warning
-                                    signs & natural prevention.</li>
-                                <li>Prakriti-based diet protocols useful across multiple health conditions.</li>
-                            </ul>
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">Advanced Protocols</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li><b>R.E.S.E.T. -</b> Remove Excess Substances for Energy Transformation - Ancient
-                                    science of detox and rejuvenation (Home-friendly detox practices, Seasonal Cleansing
-                                    Protocols, Emotional Healing Basics)</li>
-                            </ul>
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">Practical Skills</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>
-                                    <b> Decode D.I.A.G.N.O.S.E. →</b> “Discover Illness And Gain Necessary Outcomes
-                                    Safely with Education” - बिना किसी भ्रम या गलत मार्गदर्शन के, स्पष्ट रूप से मेडिकल
-                                    जांच रिपोर्ट्स को पढ़ना सीखें - Master the art of reading medical reports clearly,
-                                    without confusion or misguidance
-                                    <ul class="ntext" style="list-style: inside;">
-                                        <li>How to understand reports like CBC, LFT, KFT, USG etc .</li>
-                                        <li>Avoiding panic through right knowledge.</li>
-                                    </ul>
-                                </li>
-                            </ul>
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">Life Mastery & Leadership</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>
-                                    <b>Morning Magic Club – </b>Daily powerful morning rituals to train your body, mind,
-                                    and spirit through simple, nature-inspired practices.
-                                </li>
-                                <li>
-                                    <b>महामानव कैसे बनें - The Superhuman Code:</b> Ancient Wisdom for Modern Life
-                                    Mastery (Ancient Superhuman Code for Modern Life)
-                                </li>
-                                <li>
-                                    <b>Ayurveda Industry Opportunities & Basics of Ayurveda Entrepreneurship </b>
-                                    (Pharmacy, Herbs, Wellness, Plantation)
-                                    <ul class="ntext" style="list-style: inside;">
-                                        <li>Opening Ayurveda pharmacy store (A-Z process).</li>
-                                        <li>Ayurveda herb farming & home plantation.</li>
-                                        <li>Ayurveda factory - product creation (basic compliance).</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                  <b>  Public Health Awareness & Leadership Skills </b>
-                                    <ul class="ntext" style="list-style: inside;">
-                                        <li>How to conduct society/family wellness talks or offline camp / event Activities, online activities.</li>
-                                        <li>Skill practice: drafting letters/emails for wellness events, public connect, or community approvals.</li>
-                                        <li>Practical assignments with mentor review.</li>
-                                    </ul>
-                                    
-                                </li>
-                            </ul>
-
-                            <p class="ntext" style="font-weight:800;font-size:22px">🎁 What You Receive 🎁 आपको क्या
-                                मिलेगा?</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li> CNHA – Master Certificate + Print Plaque </li>
-                                <li>Saatvik Ved – Printed book (Daily Health Reader) </li>
-                                <li>Sampurna Swasthya - Printed Book (Free after release) </li>
-                                <li> 2 Family Members → Free Prakriti Assessment & Online Consultation (or at our nearby
-                                    Partner Center) </li>
-                                <li>Lifetime Ayurveda Mentor Guidance - Senior doctor (to support and guide you around
-                                    as your Daily Health Companion) </li>
-                                <li>Special privileges in all future Online & offline activities. </li>
-                                <li>Special Feature on Veda 24x7 News Media as CNHA Ambassador </li>
-                            </ul>
-
-
-                            <div> <b>Duration:</b> 8 Weeks | 16 Sessions (2 per week)</div>
-                            <div> <b>Course Value:</b> <del> ₹20,000 </del> <i>(including advanced training & materials)</i>
-                            </div>
-                            <div style="display:flex;flex-direction:column; gap:8px;">
-
-                            <div> <b>Registration Fee:</b> ₹2,799 only <i>(Limited-time launch offer)</i> </div>
-                            <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
-
-
-                            <div class=""> <b>Combo Offer & Upgrade Path:</b>
-                                <div class="ntext ParBox" style="list-style: inside;">
-                                   <div class="childBox"> 
-                                    <b>Direct Master Enrollment (Recommended): </b>
-                                    Enroll directly in 
-                                    <b> Level 2- Master</b> for ₹2,799/-</div>
-                                   <div class="childBox"><div><b>Upgrade Path: </b>Start with <b></div> Level 1 (₹1,999) </b> → Upgrade later by
-                                        paying <div><b> ₹1,999 </b>(Total ₹3,998).</div> </div>
-                                </div>
-                            </div>
-                            <div style="color: #b52b2b;background: #ffe2e2;border: 1px solid #eb8282;padding: 6px;border-radius: 4px;">Direct Master enrollment is more economical; the upgrade option is for those who prefer to first complete Level 1 separately</div>
-                            <!-- <div>[🟢 Enroll Now]</div> -->
-                            <div><i> 👉 Demo Session attendees also get an extra ₹500 discount coupon. (Timer - expire
-                                    in 48 Hours after the Demo session) </i></div>
-                            </div>
                             <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Trainer</p>
                                                     <div class="imageParent">
                             <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-training.jpeg"
@@ -340,32 +211,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <li><b> Special Focus Areas – </b> Kidney Care, Lifestyle Diseases, Ayurveda Education,
                                     and Public Awareness</li>
                             </ul>
-                            <div>👉 To explore Dr. Abhishek’s journey & contributions, scan the QR.</div>
-                            <div>👉 Scan QR or [▶️ Watch Intro Video]</div>
 
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Guest Faculty Sessions</p>
-                            <div>Along with Dr. Abhishek’s core training, select sessions will be conducted by invited
-                                guest faculty, covering:</div>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li>Herbs & Plantation Insights</li>
-                                <li>Pharmacy, Ayurveda Industry Applications & Factory Practices</li>
-                                <li>Academic Perspectives from Senior Professors of Ayurveda Colleges</li>
-                            </ul>
-                            <div>👉 Guest sessions by senior professors and industry experts ensure practical,
-                                research-backed, and industry-oriented learning.</div>
-
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Assessment & Certification
-                                (Skill India Aligned)</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li> <b> Attendance: </b> Minimum 80% required </li>
-                                <li> <b> Assignments may include: </b> prakriti self-report, diet log, fasting practice,
-                                    wellness activity log, OR conducting one small awareness activity (online/offline)
-                                    under mentor guidance. </li>
-                                <li> <b> Final Exam: </b> MCQ Test + Practical Demo + Viva (as per Skill India
-                                    Parameters) </li>
-                                <li> <b> Certification: </b> Awarded upon successful completion of learning + assessment
-                                </li>
-                            </ul>
+                            
+                            <div>[▶️ Watch Intro Video] (video icon linked to your embedded YouTube/Vimeo file)</div>
 
                             <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Disclaimer & Important Note</p>
                             <ul class="ntext" style="list-style: inside;">
@@ -378,23 +226,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div style="display:flex;flex-direction:column; gap:8px;">
 
                             <div>👉 <a href="tel:+9220358400"> 📞 Assistance: 92203 58400</a> | <a href="https://sabkavaidya.com/" target="_blank">🌐 sabkavaidya.com </a></div>
-                            <div>👉[🟢 Enroll Now Button] </div>
-                            <div>👉▶️ Watch Intro Video] - CNHA course video </div>
-                            </div>
-                        </div>
-
-                        <div class="video_section mt-4">
-                            <div class=" imageParent" id="videoFrameId">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/6w_2drnqC1c?si=wgQlqKv7LthBhDZA"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    <!-- <iframe width="560" height="315" 
-                                    src="https://www.youtube.com/embed/6w_2drnqC1c?si=wgQlqKv7LthBhDZA" 
-                                    title="YouTube video player" frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                            <!-- <div>👉▶️ Watch Intro Video] - CNHA course video </div> -->
                             </div>
                         </div>
                     </div>
@@ -499,27 +331,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <input type="text" class="form-control" name="address" value="<?= $_POST['address'] ?? '' ?>"
                             required>
                     </div>
-                    <div class="form-group">
-                        <label> <span class="required">*</span> Program</label>
-                        
-                        <br/>
-                        
-                       <input type="radio" id="Level1" name="programType" value="Level 1"
-                            <?= (($_POST['programType'] ?? '') === 'Level 1') ? 'checked' : '' ?>
-                            onchange="calculateFee()">
-                        <label for="Level1">Level 1</label><br>
-                        
-                        <input type="radio" id="Level2" name="programType" value="Level 2"
-                            <?= (($_POST['programType'] ?? '') === 'Level 2') ? 'checked' : '' ?>
-                            onchange="calculateFee()">
-                        <label for="Level2">Level 2</label><br>
-
-                    </div>
-                    
                     
                     <div style="display:flex;justify-content:space-between;gap:12px" class="rs-col mt-4">
                         <h5 class="totalFeeBox rs-order-1"><strong>Total Fees: <input type="text"
-                                    class="form-control feesInput" value="INR 0" name="basefare" id="basefare"></strong>
+                                    class="form-control feesInput" value="INR 99.00" name="basefare" id="basefare"></strong>
                         </h5>
 
                         <div style="display:flex;gap:12px" class="rs-order-2">
