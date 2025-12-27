@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <strong>Eligibility:</strong> Post Graduated/ Graduated/ Intermediate/ High School
                         </p>
                         <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why1.jpeg"
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/why2.jpeg"
                                 alt="CME Event 2">
                         </div>
 
@@ -156,7 +156,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </ul>
                             <div><i> 👉 Demo Session attendees receive a ₹500 discount coupon (valid for 48 hours after the session). </i></div>
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-1.png"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/programSummary.png"
                                     alt="CME Event 2">
                             </div>
 
@@ -166,7 +166,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="mt-5">
                             <h2 class="mt-5"> Level 1 – <i> Foundation (4 Weeks)</i></h2>
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-3.png"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/level1.png"
                                     alt="CME Event 2">
                             </div>
                             <p class="ntext" style="font-weight:500;text-align:center"> Certified Natural Health
@@ -224,7 +224,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                             <h2 class="mt-5"> Level 2 – <i>Advanced Master (8 Weeks)</i></h2>
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-4.png"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/level2.png"
                                     alt="CME Event 2">
                             </div>
                             <p class="ntext" style="font-weight:500;text-align:center"> Certified Natural Health
@@ -313,7 +313,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div> <b>Registration Fee:</b> ₹2,799 only <i>(Limited-time launch offer)</i> </div>
                             <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-2.png"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/levelRegistrationFee.png"
                                     alt="CME Event 2">
                             </div>
 
@@ -334,7 +334,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </div>
                             <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Trainer</p>
                                                     <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-training.jpeg"
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/trainerHighlight.jpeg"
                                 alt="CME Event 2">
                         </div>
 

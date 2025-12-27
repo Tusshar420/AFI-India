@@ -142,8 +142,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <strong>A Health Awareness & Education Program </strong>  <del>₹1000</del> ₹99 ( Limited Seats)
                         </p>
                         <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why1.jpeg"
-                                alt="CME Event 2">
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/why1.jpeg"
+                                alt="Why">
                         </div>
 
                         <div class="mt-5">
@@ -157,16 +157,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                                 </li>
                             </ul>
-                            <!-- <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
-                                    alt="CME Event 2">
-                            </div> -->
-
-                            <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
-                                    alt="CME Event 2">
-                            </div>
-                        </div>
+                        <div class="imageParent">
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/90minutes.jpeg"
+                                alt="About the Demo Session (90 Minutes)">
+                        </div>                        
+                    </div>
 
                         <div class="mt-5">
                             <p class="ntext" style="font-weight:500;text-align:center">About the Demo Session (90 Minutes)</p>
@@ -185,10 +180,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                           
                             <h2 class="mt-5"> Registration Details:</i></h2>
-                            <div class="imageParent">
+                            <!-- <div class="imageParent">
                                 <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
                                     alt="CME Event 2">
-                            </div>
+                            </div> -->
                             <div style="display:flex;flex-direction:column; gap:8px;">
                                 <div> <b>Fee:</b> ₹99 only (Limited Seats)</div>
                                 <div> <b>Format:</b> Live Online (with Q&A)  </div>
@@ -200,7 +195,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                             <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Trainer</p>
                                                     <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-training.jpeg"
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/trainerHighlight.jpeg"
                                 alt="CME Event 2">
                         </div>
 
