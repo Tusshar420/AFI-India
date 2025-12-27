@@ -16,9 +16,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mobile        = $_POST['mobile'] ?? '';
     $email         = $_POST['email'] ?? '';
     $qualification = $_POST['qualification'] ?? '';
-    $programType   = 99; // Demo Program
-    $basefare      = $_POST['basefare'] ?? 'INR 0';
-    $basefare      = (int) filter_var($basefare, FILTER_SANITIZE_NUMBER_INT);
+    $programType   = 'Demo Program';
+    $basefare      = 'INR 99';
+    // $basefare      = $_POST['basefare'] ?? 'INR 0';
+    // $basefare      = (int) filter_var($basefare, FILTER_SANITIZE_NUMBER_INT);
 
     // Validation
     if (!$name || !$mobile || !$email) {
@@ -184,7 +185,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <h2 class="mt-5"> Registration Details:</i></h2>
                             <div style="display:flex;flex-direction:column; gap:8px;">
                                 <div> <b>Fee:</b> ₹99 only (Limited Seats)</div>
-                                <div> <b>Format:</b><del> Live Online (with Q&A) </del> </div>
+                                <div> <b>Format:</b> Live Online (with Q&A)  </div>
                                 <div> <b>Next Batch:</b> <i>[Date Placeholder]</i> </div>
                                 <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
                                 <div> <i>⚡ 🎁 Complete the Demo Session and receive a ₹500 discount coupon for CNHA Level 1 or Level 2 enrollment.</i> </div>
