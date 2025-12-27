@@ -77,6 +77,7 @@ $json = json_encode($data);
     <input type="hidden" name="$name" id="$name" value="<?php echo htmlspecialchars($name); ?>">
     <input type="hidden" name="email" id="email" value="<?php echo htmlspecialchars($email); ?>">
     <input type="hidden" name="mobile" id="mobile" value="<?php echo htmlspecialchars($mobile); ?>">
+    <input type="hidden" name="isDemo" id="isDemo" value="<?php echo htmlspecialchars($isDemo); ?>">
 </form>
 
 <script>

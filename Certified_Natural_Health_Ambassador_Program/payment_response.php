@@ -49,6 +49,7 @@ $payment_id = $response_data['id'];
 $amount = $response_data['amount'] / 100; // Convert paisa to INR
 $status = $response_data['status'];
 $email = $response_data['email'];
+$isDemo = $response_data['isDemo'] ?? false;
 $contact = $response_data['contact'] ?? $contact;
 $created_at = date("Y-m-d H:i:s");
 
@@ -66,7 +67,13 @@ $subtext = $isSuccess
 
 $statusClass = $isSuccess ? 'success' : 'error';
 $btnText = $isSuccess ? 'Done' : 'Try Again';
-$redirectUrl = 'https://afi-india.in/Certified_Natural_Health_Ambassador_Program.php'; // You can change this as needed
+
+if($isDemo == 'true' ||  $isDemo === true){
+    $redirectUrl = 'https://afi-india.in/Certified_Natural_Health_Ambassador_Demo_Program.php'; // You can change this as needed
+}else{
+    $redirectUrl = 'https://afi-india.in/Certified_Natural_Health_Ambassador_Program.php'; // You can change this as needed
+    
+}
 
 
 $stmt = $conn->prepare("SELECT `Id` FROM `Certified Natural Health Ambassador Program Registration` WHERE `Email ID` = ?");
