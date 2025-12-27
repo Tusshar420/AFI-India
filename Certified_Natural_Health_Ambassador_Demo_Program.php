@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $encryptedFlag = urlencode(encryptData('false'));
         echo('Email:' . $encryptedEmail);
         
-        header("Location: ./Certified_Natural_Health_Ambassador_Program/payment.php?e=$encryptedEmail&&c=$encryptedFlag");
+        header("Location: ./Certified_Natural_Health_Ambassador_Program/payment.php?e=$encryptedEmail&&c=$encryptedFlag&&p=true");
         exit();
     } else {
         echo "Error updating record: " . $stmt->error;

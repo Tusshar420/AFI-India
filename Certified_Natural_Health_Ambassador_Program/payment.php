@@ -20,6 +20,7 @@ $api = new Api($api_key, $api_secret);
 // Get registration ID
 $en_email = isset($_GET['e']) ? decryptData($_GET['e']) : null;
 $encryptedFlag = isset($_GET['c']) ? decryptData($_GET['c']) : false;
+$isDemo = isset($_GET['p']) ? decryptData($_GET['p']) : false;
 if (!$en_email) {
     die("Missing Email.");
 }
@@ -79,15 +80,21 @@ $json = json_encode($data);
 </form>
 
 <script>
-var options = <?= $json ?>;
+    const isDemo = <?= $isDemo ? 'true' : 'false' ?>;
 
+var options = <?= $json ?>;
 options.modal = {
-    ondismiss: function() {
-        window.location = 'https://afi-india.in/Certified_Natural_Health_Ambassador_Program.php';
+    ondismiss: function () {
+        if (isDemo) {
+            window.location = 'https://afi-india.in/Certified_Natural_Health_Ambassador_Demo_Program.php';
+        } else {
+            window.location = 'https://afi-india.in/Certified_Natural_Health_Ambassador_Program.php';
+        }
     },
     escape: true,
     backdropclose: false
 };
+
 
 var rzp = new Razorpay(options);
 rzp.open();
