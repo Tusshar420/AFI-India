@@ -334,7 +334,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     
                     <div style="display:flex;justify-content:space-between;gap:12px" class="rs-col mt-4">
                         <h5 class="totalFeeBox rs-order-1"><strong>Total Fees: <input type="text"
-                                    class="form-control feesInput" value="INR 99.00" name="basefare" id="basefare"></strong>
+                                    class="form-control feesInput" value="INR 99" name="basefare" id="basefare"></strong>
                         </h5>
 
                         <div style="display:flex;gap:12px" class="rs-order-2">
