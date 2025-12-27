@@ -141,10 +141,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <strong>Registration:</strong>  <del>₹1000</del> ₹99  ( Limited Seats) <br>
                             <strong>A Health Awareness & Education Program </strong>  <del>₹1000</del> ₹99 ( Limited Seats)
                         </p>
-                        <!-- <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
+                        <div class="imageParent">
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why1.jpeg"
                                 alt="CME Event 2">
-                        </div> -->
+                        </div>
 
                         <div class="mt-5">
                             <h3 class="strip"> क्यों जुड़ना चाहिए? Why Join? </h3>
@@ -157,8 +157,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                                 </li>
                             </ul>
-                            <div class="imageParent">
+                            <!-- <div class="imageParent">
                                 <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
+                                    alt="CME Event 2">
+                            </div> -->
+
+                            <div class="imageParent">
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
                                     alt="CME Event 2">
                             </div>
                         </div>
@@ -178,11 +183,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div><i> 👉 This demo is your first step towards becoming a Certified Natural Health Ambassador.</i> </div>
                             <div><i>Bonus for all attendees: Digital Health Companion PDF + Demo e-Certificate</i> </div>
 
+                          
+                            <h2 class="mt-5"> Registration Details:</i></h2>
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
                                     alt="CME Event 2">
                             </div>
-                            <h2 class="mt-5"> Registration Details:</i></h2>
                             <div style="display:flex;flex-direction:column; gap:8px;">
                                 <div> <b>Fee:</b> ₹99 only (Limited Seats)</div>
                                 <div> <b>Format:</b> Live Online (with Q&A)  </div>
