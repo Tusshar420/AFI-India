@@ -224,7 +224,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <li> Certification is for <b> knowledge and awareness only. </b> </li>
                             </ul>
                             <div style="display:flex;flex-direction:column; gap:8px;">
-
                             <div>👉 <a href="tel:+9220358400"> 📞 Assistance: 92203 58400</a> | <a href="https://sabkavaidya.com/" target="_blank">🌐 sabkavaidya.com </a></div>
                             <!-- <div>👉▶️ Watch Intro Video] - CNHA course video </div> -->
                             </div>

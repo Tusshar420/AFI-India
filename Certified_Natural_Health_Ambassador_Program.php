@@ -382,7 +382,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div>👉▶️ Watch Intro Video] - CNHA course video </div>
                             </div>
                         </div>
-
                         <div class="video_section mt-4">
                             <div class=" imageParent" id="videoFrameId">
                                 <iframe width="560" height="315"
