@@ -20,7 +20,7 @@ $api = new Api($api_key, $api_secret);
 // Get registration ID
 $en_email = isset($_GET['e']) ? decryptData($_GET['e']) : null;
 $encryptedFlag = isset($_GET['c']) ? decryptData($_GET['c']) : false;
-$isDemo = isset($_GET['p']) ? decryptData($_GET['p']) : false;
+$isDemo = isset($_GET['p']) ? ($_GET['p']) : false;
 if (!$en_email) {
     die("Missing Email.");
 }
