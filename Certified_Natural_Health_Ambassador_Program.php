@@ -155,15 +155,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <li>समाज में स्वास्थ्य जागरूकता फैलाकर एक आदर्श भूमिका निभाइए </li>
                             </ul>
                             <div><i> 👉 Demo Session attendees receive a ₹500 discount coupon (valid for 48 hours after the session). </i></div>
-
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-1.png"
                                     alt="CME Event 2">
                             </div>
+
+                            
                         </div>
 
                         <div class="mt-5">
                             <h2 class="mt-5"> Level 1 – <i> Foundation (4 Weeks)</i></h2>
+                            <div class="imageParent">
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-3.png"
+                                    alt="CME Event 2">
+                            </div>
                             <p class="ntext" style="font-weight:500;text-align:center"> Certified Natural Health
                                 Ambassador </p>
                             <p class="mt-5 ntext" style="font-weight:800;font-size:22px">आप क्या सीखेंगे (What You Will Learn?) </p>
@@ -218,6 +223,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
                             <h2 class="mt-5"> Level 2 – <i>Advanced Master (8 Weeks)</i></h2>
+                            <div class="imageParent">
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-4.png"
+                                    alt="CME Event 2">
+                            </div>
                             <p class="ntext" style="font-weight:500;text-align:center"> Certified Natural Health
                                 Ambassador – Master   </p>
                             <p class="mt-5 ntext" style="font-weight:800;font-size:22px">आप क्या सीखेंगे (What You Will Learn?) </p>
@@ -303,7 +312,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                             <div> <b>Registration Fee:</b> ₹2,799 only <i>(Limited-time launch offer)</i> </div>
                             <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
-
+                            <div class="imageParent">
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/demo-2.png"
+                                    alt="CME Event 2">
+                            </div>
 
                             <div class=""> <b>Combo Offer & Upgrade Path:</b>
                                 <div class="ntext ParBox" style="list-style: inside;">
@@ -385,15 +397,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="video_section mt-4">
                             <div class=" imageParent" id="videoFrameId">
                                 <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/6w_2drnqC1c?si=wgQlqKv7LthBhDZA"
+                                    src="https://www.youtube.com/embed/ZERh0nGYQDY?si=BHwaOQKIirf73XZL"
                                     title="YouTube video player" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                    <!-- <iframe width="560" height="315" 
-                                    src="https://www.youtube.com/embed/6w_2drnqC1c?si=wgQlqKv7LthBhDZA" 
-                                    title="YouTube video player" frameborder="0" 
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+                                   <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ZERh0nGYQDY?si=BHwaOQKIirf73XZL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
                             </div>
                         </div>
                     </div>

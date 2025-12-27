@@ -141,10 +141,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <strong>Registration:</strong> ₹99 ( ₹1000 crossed | Limited Seats)
                             <strong>A Health Awareness & Education Program </strong> ₹99 ( ₹1000 crossed | Limited Seats)
                         </p>
-                        <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why1.jpeg"
+                        <!-- <div class="imageParent">
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
                                 alt="CME Event 2">
-                        </div>
+                        </div> -->
 
                         <div class="mt-5">
                             <h3 class="strip"> क्यों जुड़ना चाहिए? Why Join? </h3>
@@ -158,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 </li>
                             </ul>
                             <div class="imageParent">
-                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-why2.jpeg"
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
                                     alt="CME Event 2">
                             </div>
                         </div>
@@ -227,6 +227,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div style="display:flex;flex-direction:column; gap:8px;">
                             <div>👉 <a href="tel:+9220358400"> 📞 Assistance: 92203 58400</a> | <a href="https://sabkavaidya.com/" target="_blank">🌐 sabkavaidya.com </a></div>
                             <!-- <div>👉▶️ Watch Intro Video] - CNHA course video </div> -->
+                            </div>
+                        </div>
+                        <div class="video_section mt-4">
+                            <div class=" imageParent" id="videoFrameId">
+                                <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/6w_2drnqC1c?si=qM-b4ae3P6e4WQ_0"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
