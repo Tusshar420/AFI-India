@@ -138,8 +138,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <strong>Time:</strong> 7:00 PM Onwards<br>
                             <strong>Language:</strong> Hindi<br>
                             <strong>Duration:</strong>90 Minutes (Live Online)<br>
-                            <strong>Registration:</strong> ₹99 ( ₹1000 crossed | Limited Seats)
-                            <strong>A Health Awareness & Education Program </strong> ₹99 ( ₹1000 crossed | Limited Seats)
+                            <strong>Registration:</strong>  <del>₹1000</del> ₹99  ( Limited Seats) <br>
+                            <strong>A Health Awareness & Education Program </strong>  <del>₹1000</del> ₹99 ( Limited Seats)
                         </p>
                         <!-- <div class="imageParent">
                             <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
