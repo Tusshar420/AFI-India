@@ -343,7 +343,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <option>High School</option>
                         </select>
                     </div>
-
                     <div class="form-group">
                         <label><span class="required">*</span> City State</label>
                         <input type="text" class="form-control" name="address" value="<?= $_POST['address'] ?? '' ?>"
