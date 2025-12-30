@@ -17,6 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email         = $_POST['email'] ?? '';
     $qualification = $_POST['qualification'] ?? '';
     $programType   = 'Demo Program';
+    $programDate   = $_POST['programdate'] ?? '';
     $basefare      = 'INR 99';
     // $basefare      = $_POST['basefare'] ?? 'INR 0';
     // $basefare      = (int) filter_var($basefare, FILTER_SANITIZE_NUMBER_INT);
@@ -61,20 +62,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             `Email ID`,
             `Qualification`,
             `Program Type`,
+            `Program Date`,
             `Total Fees`,
             `Registration Time`
         )
-        VALUES (?,?, ?, ?, ?, ?, ?, NOW())
+        VALUES (?,?, ?, ?, ?, ?, ?, ?, NOW())
     ");
 
     $insert->bind_param(
-        "ssssssi",
+        "sssssssi",
         $name,
         $mobile,
         $address,
         $email,
         $qualification,
         $programType,
+        $programDate,
         $basefare
     );
 
@@ -134,12 +137,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <!--    <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-whatCNHA..jpeg"-->
                         <!--        alt="CME Event 2">-->
                         <!--</div>-->
-                        <p class="ntext"><strong>Date:</strong> 24 January 2026 Onwards(2 Class Weekly)<br>
-                            <strong>Time:</strong> 7:00 PM Onwards<br>
-                            <strong>Language:</strong> Hindi<br>
-                            <strong>Duration:</strong>90 Minutes (Live Online)<br>
-                            <strong>Registration:</strong>  <del>₹1000</del> ₹99  ( Limited Seats) <br>
-                            <strong>A Health Awareness & Education Program </strong>  <del>₹1000</del> ₹99 ( Limited Seats)
+                        <p class="ntext"><strong>Date : Pick your Date</strong><br>
+                       <strong>Demo 1 :</strong> 10 January 2026 | Saturday<br>
+                       <strong>OR</strong><br>
+                       <strong>Demo 2 :</strong> 11 January 2026 | Sunday<br>
+                       <strong>OR</strong><br>
+                       <strong>Demo 3 :</strong> 17 January 2026 | Saturday<br>
+                            <strong>Time :</strong> 7:00 PM Onwards<br>
+                            <strong>Language :</strong> Hindi<br>
+                            <strong>Duration :</strong> 90 Minutes (Live Online)<br>
+                            <strong>Registration :</strong>  <del>₹1000</del> ₹99  (Limited Seats) <br>
+                            <strong>A Health Awareness & Education Program </strong>  <del>₹1000</del> ₹99 (Limited Seats)
                         </p>
                         <div class="imageParent">
                             <img src="./Certified_Natural_Health_Ambassador_Program/img/why1.jpeg"
@@ -185,9 +193,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     alt="CME Event 2">
                             </div> -->
                             <div style="display:flex;flex-direction:column; gap:8px;">
-                                <div> <b>Fee:</b> ₹99 only (Limited Seats)</div>
+                                <div> <b>Fee:</b>  <del>₹1000</del> ₹99  (Limited Seats) <br>
                                 <div> <b>Format:</b> Live Online (with Q&A)  </div>
-                                <div> <b>Next Batch:</b> <i>[Date Placeholder]</i> </div>
+                                <div> <b>Next Batch:</b> <i>24 January 2026 onwards</i> </div>
                                 <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
                                 <div> <i>⚡ 🎁 Complete the Demo Session and receive a ₹500 discount coupon for CNHA Level 1 or Level 2 enrollment.</i> </div>
 
@@ -341,7 +349,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <input type="text" class="form-control" name="address" value="<?= $_POST['address'] ?? '' ?>"
                             required>
                     </div>
-                    
+                    <div class="form-group">
+                        <label> <span class="required">*</span> Select Slot</label>
+                        <select class="form-control" name="programdate" required>
+                            <option>Select an option</option>
+                            <option>10 January 2026 | Saturday</option>
+                            <option>11 January 2026 | Sunday</option>
+                            <option>17 January 2026 | Saturday</option>
+                        </select>
+                    </div>
                     <div style="display:flex;justify-content:space-between;gap:12px" class="rs-col mt-4">
                         <h5 class="totalFeeBox rs-order-1"><strong>Total Fees: <input type="text"
                                     class="form-control feesInput" value="INR 99" name="basefare" id="basefare"></strong>
