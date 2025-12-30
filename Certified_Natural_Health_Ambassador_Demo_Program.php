@@ -111,9 +111,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="https://afi-india.in/css/responsive.css">
     <link rel="stylesheet" href="./Certified_Natural_Health_Ambassador_Program/styles.css">
     <style type="text/css">
-        .increaseLineHeight li {
-            line-height: 2.5;
-        }
+    .increaseLineHeight li {
+        line-height: 2.5;
+    }
     </style>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
@@ -138,20 +138,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <!--        alt="CME Event 2">-->
                         <!--</div>-->
                         <p class="ntext"><strong>Date : Pick your Date</strong><br>
-                       <strong>Demo 1 :</strong> 10 January 2026 | Saturday<br>
-                       <strong>OR</strong><br>
-                       <strong>Demo 2 :</strong> 11 January 2026 | Sunday<br>
-                       <strong>OR</strong><br>
-                       <strong>Demo 3 :</strong> 17 January 2026 | Saturday<br>
+                            <strong>Demo 1 :</strong> 10 January 2026 | Saturday<br>
+                            <strong>OR</strong><br>
+                            <strong>Demo 2 :</strong> 11 January 2026 | Sunday<br>
+                            <strong>OR</strong><br>
+                            <strong>Demo 3 :</strong> 17 January 2026 | Saturday<br>
                             <strong>Time :</strong> 7:00 PM Onwards<br>
                             <strong>Language :</strong> Hindi<br>
                             <strong>Duration :</strong> 90 Minutes (Live Online)<br>
-                            <strong>Registration :</strong>  <del>₹1000</del> ₹99  (Limited Seats) <br>
-                            <strong>A Health Awareness & Education Program </strong>  <del>₹1000</del> ₹99 (Limited Seats)
+                            <strong>Registration :</strong> <del>₹1000</del> ₹99 (Limited Seats) <br>
+                            <strong>A Health Awareness & Education Program </strong> <del>₹1000</del> ₹99 (Limited
+                            Seats)
                         </p>
                         <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/why1.jpeg"
-                                alt="Why">
+                            <img src="./Certified_Natural_Health_Ambassador_Program/img/why1.jpeg" alt="Why">
                         </div>
 
                         <div class="mt-5">
@@ -160,91 +160,110 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                                 <li>आज हर घर में कोई न कोई गंभीर बीमारी मौजूद है - डायबिटीज, BP, मोटापा, तनाव</li>
                                 <li>महंगे इलाज/दवाइयों का बोझ </li>
-                                <li>Studies suggest: गंभीर बीमारी में कई परिवार कर्ज़/उधार पर निर्भर होते हैं 
-                                    <br/>👉 अब मय है इलाज के साथ-साथ preventive care अपनाने का
+                                <li>Studies suggest: गंभीर बीमारी में कई परिवार कर्ज़/उधार पर निर्भर होते हैं
+                                    <br />👉 अब मय है इलाज के साथ-साथ preventive care अपनाने का
 
                                 </li>
                             </ul>
-                        <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/90minutes.jpeg"
-                                alt="About the Demo Session (90 Minutes)">
-                        </div>                        
-                    </div>
+                            <div class="imageParent">
+                                <img src="./Certified_Natural_Health_Ambassador_Program/img/90minutes.jpeg"
+                                    alt="About the Demo Session (90 Minutes)">
+                            </div>
+                        </div>
 
                         <div class="mt-5">
-                            <p class="ntext" style="font-weight:500;text-align:center">About the Demo Session (90 Minutes)</p>
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">In this interactive introduction, you will discover:</p>
+                            <p class="ntext" style="font-weight:500;text-align:center">About the Demo Session (90
+                                Minutes)</p>
+                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">In this interactive
+                                introduction, you will discover:</p>
                             <!-- <p class="ntext" style="font-weight:800;font-size:22px">Ayurveda Basics </p> -->
                             <ul class="ntext" style="list-style: inside;">
                                 <li>Current health challenges vs Ayurveda’s approach</li>
                                 <li>Why every family needs a Health Guardian</li>
                                 <li>Ayurveda basics explained in a simple way</li>
-                                <li>3 Easy & Ever-Useful Health Mantras for daily life (also need to change this line in prospectus content)</li>
+                                <li>3 Easy & Ever-Useful Health Mantras for daily life (also need to change this line in
+                                    prospectus content)</li>
                                 <li>Natural Preventive care secrets you can use at home</li>
-                                <li>Insights about the Certified Natural Health Ambassador Program (CNHA) - (Level 1 & Level 2)</li>
+                                <li>Insights about the Certified Natural Health Ambassador Program (CNHA) - (Level 1 &
+                                    Level 2)</li>
                             </ul>
-                            <div><i> 👉 This demo is your first step towards becoming a Certified Natural Health Ambassador.</i> </div>
-                            <div><i>Bonus for all attendees: Digital Health Companion PDF + Demo e-Certificate</i> </div>
+                            <div><i> 👉 This demo is your first step towards becoming a Certified Natural Health
+                                    Ambassador.</i> </div>
+                            <div><i>Bonus for all attendees: Digital Health Companion PDF + Demo e-Certificate</i>
+                            </div>
 
-                          
+
                             <h2 class="mt-5"> Registration Details:</i></h2>
                             <!-- <div class="imageParent">
                                 <img src="./Certified_Natural_Health_Ambassador_Program/img/Image-demo.jpeg"
                                     alt="CME Event 2">
                             </div> -->
                             <div style="display:flex;flex-direction:column; gap:8px;">
-                                <div> <b>Fee:</b>  <del>₹1000</del> ₹99  (Limited Seats) <br>
-                                <div> <b>Format:</b> Live Online (with Q&A)  </div>
-                                <div> <b>Next Batch:</b> <i>24 January 2026 onwards</i> </div>
-                                <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
-                                <div> <i>⚡ 🎁 Complete the Demo Session and receive a ₹500 discount coupon for CNHA Level 1 or Level 2 enrollment.</i> </div>
+                                <div> <b>Fee:</b> <del>₹1000</del> ₹99 (Limited Seats) <br>
+                                    <div> <b>Format:</b> Live Online (with Q&A) </div>
+                                    <div> <b>Next Batch:</b> <i>24 January 2026 onwards</i> </div>
+                                    <!-- <div> [🟢 Enroll in Level 1 – ₹1,999]</div> -->
+                                    <div> <i>⚡ 🎁 Complete the Demo Session and receive a ₹500 discount coupon for CNHA
+                                            Level 1 or Level 2 enrollment.</i> </div>
 
-                            </div>
+                                </div>
 
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Trainer</p>
-                                                    <div class="imageParent">
-                            <img src="./Certified_Natural_Health_Ambassador_Program/img/trainerHighlight.jpeg"
-                                alt="CME Event 2">
-                        </div>
+                                <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Trainer</p>
+                                <div class="imageParent">
+                                    <img src="./Certified_Natural_Health_Ambassador_Program/img/trainerHighlight.jpeg"
+                                        alt="CME Event 2">
+                                </div>
 
-                            <p class="ntext" style="font-weight:800;font-size:22px">Ayurvedacharya Dr. Abhishek </p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li><b> Founder – </b> Ayurveda Federation of India (AFI), Sabka Vaidya, Saatvik Vaidya,
-                                    Veda 24x7</li>
-                                <li><b> 16+ Years Clinical Experience | 5000+ Ayurveda Doctors & Students Trained </b>
-                                </li>
-                                <li><b> Author – </b> Kidney Kavach, Sampurna Swasthya, Saatvik Ved</li>
-                                <li><b> Creator – </b> DNA Kayakalp Protocol (Evidence-based Kidney Care Framework)</li>
-                                <li><b> Editor-in-Chief – </b> Veda 24x7 (India’s First Vedic Wellness Newspaper)</li>
-                                <li><b> Recognized Speaker & Mentor</b> at national and international Ayurveda forums &
+                                <p class="ntext" style="font-weight:800;font-size:22px">Ayurvedacharya Dr. Abhishek </p>
+                                <ul class="ntext" style="list-style: inside;">
+                                    <li><b> Founder – </b> Ayurveda Federation of India (AFI), Sabka Vaidya, Saatvik
+                                        Vaidya,
+                                        Veda 24x7</li>
+                                    <li><b> 16+ Years Clinical Experience | 5000+ Ayurveda Doctors & Students Trained
+                                        </b>
+                                    </li>
+                                    <li><b> Author – </b> Kidney Kavach, Sampurna Swasthya, Saatvik Ved</li>
+                                    <li><b> Creator – </b> DNA Kayakalp Protocol (Evidence-based Kidney Care Framework)
+                                    </li>
+                                    <li><b> Editor-in-Chief – </b> Veda 24x7 (India’s First Vedic Wellness Newspaper)
+                                    </li>
+                                    <li><b> Recognized Speaker & Mentor</b> at national and international Ayurveda
+                                        forums &
                                         conferences</li>
-                                <li><b> Special Focus Areas – </b> Kidney Care, Lifestyle Diseases, Ayurveda Education,
-                                    and Public Awareness</li>
-                            </ul>
+                                    <li><b> Special Focus Areas – </b> Kidney Care, Lifestyle Diseases, Ayurveda
+                                        Education,
+                                        and Public Awareness</li>
+                                </ul>
 
-                            
-                            <div>[▶️ Watch Intro Video] (video icon linked to your embedded YouTube/Vimeo file)</div>
 
-                            <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Disclaimer & Important Note</p>
-                            <ul class="ntext" style="list-style: inside;">
-                                <li> This program is for <b> health awareness and natural lifestyle education. </b>
-                                </li>
-                                <li> All practices taught are <b> preventive and supportive for everyday self-care. </b>
-                                </li>
-                                <li> Certification is for <b> knowledge and awareness only. </b> </li>
-                            </ul>
-                            <div style="display:flex;flex-direction:column; gap:8px;">
-                            <div>👉 <a href="tel:+9220358400"> 📞 Assistance: 92203 58400</a> | <a href="https://sabkavaidya.com/" target="_blank">🌐 sabkavaidya.com </a></div>
-                            <!-- <div>👉▶️ Watch Intro Video] - CNHA course video </div> -->
+                                <div>[▶️ Watch Intro Video] (video icon linked to your embedded YouTube/Vimeo file)
+                                </div>
+
+                                <p class="mt-5 ntext" style="font-weight:800;font-size:22px">Disclaimer & Important Note
+                                </p>
+                                <ul class="ntext" style="list-style: inside;">
+                                    <li> This program is for <b> health awareness and natural lifestyle education. </b>
+                                    </li>
+                                    <li> All practices taught are <b> preventive and supportive for everyday self-care.
+                                        </b>
+                                    </li>
+                                    <li> Certification is for <b> knowledge and awareness only. </b> </li>
+                                </ul>
+                                <div style="display:flex;flex-direction:column; gap:8px;">
+                                    <div>👉 <a href="tel:+9220358400"> 📞 Assistance: 92203 58400</a> | <a
+                                            href="https://sabkavaidya.com/" target="_blank">🌐 sabkavaidya.com </a>
+                                    </div>
+                                    <!-- <div>👉▶️ Watch Intro Video] - CNHA course video </div> -->
+                                </div>
                             </div>
-                        </div>
-                        <div class="video_section mt-4">
-                            <div class=" imageParent" id="videoFrameId">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/6w_2drnqC1c?si=qM-b4ae3P6e4WQ_0"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="video_section mt-4">
+                                <div class=" imageParent" id="videoFrameId">
+                                    <iframe width="560" height="315"
+                                        src="https://www.youtube.com/embed/6w_2drnqC1c?si=qM-b4ae3P6e4WQ_0"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -256,7 +275,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 <span
                                     style="font-weight:bold; font-size:26px; margin-bottom:5px;    letter-spacing: 1px;">Enroll
                                     Now <br /></span>
-                                <span style="font-weight:bold; font-size:13px"> 📝 सीटें सीमित—अभी रजिस्टर करें! </span>
+                                <span style="font-weight:bold; font-size:13px"> 📝 सीटें सीमित—अभी रजिस्टर करें!
+                                </span>
                             </button>
                         </div>
                     </form>
@@ -270,7 +290,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!-- Popup -->
@@ -343,6 +362,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <option>High School</option>
                         </select>
                     </div>
+
                     <div class="form-group">
                         <label><span class="required">*</span> City State</label>
                         <input type="text" class="form-control" name="address" value="<?= $_POST['address'] ?? '' ?>"
@@ -359,7 +379,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                     <div style="display:flex;justify-content:space-between;gap:12px" class="rs-col mt-4">
                         <h5 class="totalFeeBox rs-order-1"><strong>Total Fees: <input type="text"
-                                    class="form-control feesInput" value="INR 99" name="basefare" id="basefare"></strong>
+                                    class="form-control feesInput" value="INR 99" name="basefare"
+                                    id="basefare"></strong>
                         </h5>
 
                         <div style="display:flex;gap:12px" class="rs-order-2">
@@ -370,7 +391,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                 </div>
                 <!-- Step 3-->
-               
+
                 <div id="step3" style="display: none;">
                     <button type="button" class="btn btn-secondary" onclick="nextStep(1)">Back</button>
                     <button type="submit" class="btn btn-danger btn-lg">Submit Registration</button>
@@ -381,198 +402,199 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     <script>
-        function goToRegister(event) {
+    function goToRegister(event) {
 
-            // Redirect to register.php
-            // window.location.href = './KidneyCare/register.php';
-            openPopup(event, 'formPopup');
-        }
+        // Redirect to register.php
+        // window.location.href = './KidneyCare/register.php';
+        openPopup(event, 'formPopup');
+    }
 
-        function openPopup(event, id) {
-            event.preventDefault();
-            document.getElementById(id + '-overlay').style.display = 'block';
-            document.getElementById(id).style.display = 'block';
-        }
+    function openPopup(event, id) {
+        event.preventDefault();
+        document.getElementById(id + '-overlay').style.display = 'block';
+        document.getElementById(id).style.display = 'block';
+    }
 
-        function closePopup(id) {
-            document.getElementById(id + '-overlay').style.display = 'none';
-            document.getElementById(id).style.display = 'none';
-        }
+    function closePopup(id) {
+        document.getElementById(id + '-overlay').style.display = 'none';
+        document.getElementById(id).style.display = 'none';
+    }
 
-        //      function nextStep(step) {
-        //     document.getElementById('step1').style.display = (step === 0) ? 'block' : 'none';
-        //     document.getElementById('step2').style.display = (step === 1) ? 'block' : 'none';
-        //     document.getElementById('step3').style.display = (step === 2) ? 'block' : 'none';
-        // }
-        function nextStep(step) {
-            console.log('step', step);
+    //      function nextStep(step) {
+    //     document.getElementById('step1').style.display = (step === 0) ? 'block' : 'none';
+    //     document.getElementById('step2').style.display = (step === 1) ? 'block' : 'none';
+    //     document.getElementById('step3').style.display = (step === 2) ? 'block' : 'none';
+    // }
+    function nextStep(step) {
+        console.log('step', step);
 
-            if (step === 1) {
-                const currentStep = document.getElementById('step1');
-                const inputs = currentStep.querySelectorAll("input, select, textarea");
-                for (let input of inputs) {
-                    if (!input.checkValidity()) {
-                        input.reportValidity();
-                        return;
-                    };
-                }
-                // Get email value
-                const email = document.querySelector('input[name="email"]').value;
-                console.log('email', email);
-                if (!email) {
-                    alert("Please enter your email.");
+        if (step === 1) {
+            const currentStep = document.getElementById('step1');
+            const inputs = currentStep.querySelectorAll("input, select, textarea");
+            for (let input of inputs) {
+                if (!input.checkValidity()) {
+                    input.reportValidity();
                     return;
-                }
+                };
+            }
+            // Get email value
+            const email = document.querySelector('input[name="email"]').value;
+            console.log('email', email);
+            if (!email) {
+                alert("Please enter your email.");
+                return;
+            }
 
-                // Validate email format
-                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                if (!emailRegex.test(email)) {
-                    alert("Please enter a valid email address.");
-                    return;
-                }
+            // Validate email format
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
 
-                // AJAX call to check email
-                // fetch('./KidneyCare/check_email.php', {
-                //     method: 'POST',
-                //     headers: {
-                //         'Content-Type': 'application/x-www-form-urlencoded'
-                //     },
-                //     body: `email=${encodeURIComponent(email)}`
-                // })
-                const fullName = document.querySelector('input[name="fullname"]').value;
-                const phone = document.querySelector('input[name="mobile"]').value;
+            // AJAX call to check email
+            // fetch('./KidneyCare/check_email.php', {
+            //     method: 'POST',
+            //     headers: {
+            //         'Content-Type': 'application/x-www-form-urlencoded'
+            //     },
+            //     body: `email=${encodeURIComponent(email)}`
+            // })
+            const fullName = document.querySelector('input[name="fullname"]').value;
+            const phone = document.querySelector('input[name="mobile"]').value;
 
-                fetch('./Certified_Natural_Health_Ambassador_Program/check_email.php', {
+            fetch('./Certified_Natural_Health_Ambassador_Program/check_email.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/x-www-form-urlencoded'
                     },
                     body: `email=${encodeURIComponent(email)}&full_name=${encodeURIComponent(fullName)}&phone=${encodeURIComponent(phone)}`
                 })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.exists) {
-                            alert("This email is already registered. Please use a different email.");
-                        } else {
-                            localStorage.setItem('registration_id', data.id);
-                            document.getElementById('registration_id').value = localStorage.getItem('registration_id');
+                .then(response => response.json())
+                .then(data => {
+                    if (data.exists) {
+                        alert("This email is already registered. Please use a different email.");
+                    } else {
+                        localStorage.setItem('registration_id', data.id);
+                        document.getElementById('registration_id').value = localStorage.getItem('registration_id');
 
-                            // Show next step
-                            document.getElementById('step1').style.display = 'none';
-                            document.getElementById('step2').style.display = 'block';
-                            document.getElementById('step3').style.display = 'none';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Error:', error);
-                        alert("Something went wrong while checking the email.");
-                    });
-
-                return; // stop here until check finishes
-            }
-
-            if (step === 0) {
-                document.getElementById('step1').style.display = 'block';
-                document.getElementById('step2').style.display = 'none';
-                document.getElementById('step3').style.display = 'none';
-            }
-
-            if (step === 2) {
-                // Basic validation for step 2 fields
-                const currentStep = document.getElementById('step2');
-                const inputs = currentStep.querySelectorAll("input, select, textarea");
-                for (let input of inputs) {
-                    if (!input.checkValidity()) {
-                        input.reportValidity();
-                        return;
+                        // Show next step
+                        document.getElementById('step1').style.display = 'none';
+                        document.getElementById('step2').style.display = 'block';
+                        document.getElementById('step3').style.display = 'none';
                     }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert("Something went wrong while checking the email.");
+                });
+
+            return; // stop here until check finishes
+        }
+
+        if (step === 0) {
+            document.getElementById('step1').style.display = 'block';
+            document.getElementById('step2').style.display = 'none';
+            document.getElementById('step3').style.display = 'none';
+        }
+
+        if (step === 2) {
+            // Basic validation for step 2 fields
+            const currentStep = document.getElementById('step2');
+            const inputs = currentStep.querySelectorAll("input, select, textarea");
+            for (let input of inputs) {
+                if (!input.checkValidity()) {
+                    input.reportValidity();
+                    return;
                 }
-
-                document.getElementById('step1').style.display = 'none';
-                document.getElementById('step2').style.display = 'none';
-                document.getElementById('step3').style.display = 'block';
             }
+
+            document.getElementById('step1').style.display = 'none';
+            document.getElementById('step2').style.display = 'none';
+            document.getElementById('step3').style.display = 'block';
+        }
+    }
+
+    function fileUploadHandle(inputElement) {
+        const file = inputElement.files[0];
+        if (file && file.size > 5 * 1024 * 1024) {
+            alert("File too large. Max 5MB allowed.");
+            inputElement.value = ""; // reset file input
+        }
+    }
+
+    let isCoupenApplied = false;
+
+    const addon = document.querySelector('input[name="addon"]');
+
+    function applyCoupen() {
+        let coupenList = ['svkcv1899'];
+        const referralField = document.getElementById("referralCodeId").value;
+        if (referralField !== '' && referralField !== undefined) {
+            const referralCode = referralField.toLowerCase();
+            if (coupenList.includes(referralCode)) {
+                console.log("Referral code matched!");
+                isCoupenApplied = true;
+                calculateFee();
+            } else {
+                console.log("Invalid referral code!");
+                isCoupenApplied = false;
+                calculateFee();
+            }
+
+        }
+    }
+
+
+    function calculateFee() {
+        let baseFee = 0;
+
+        const selectedProgram = document.querySelector(
+            'input[name="programType"]:checked'
+        );
+
+        if (!selectedProgram) {
+            document.getElementById("basefare").value = "INR 0";
+            return;
         }
 
-        function fileUploadHandle(inputElement) {
-            const file = inputElement.files[0];
-            if (file && file.size > 5 * 1024 * 1024) {
-                alert("File too large. Max 5MB allowed.");
-                inputElement.value = ""; // reset file input
-            }
+        const catValue = selectedProgram.value;
+
+        if (catValue === "Level 1") {
+            baseFee = 1999;
+        } else if (catValue === "Level 2") {
+            baseFee = 2799;
         }
 
-        let isCoupenApplied = false;
+        document.getElementById("basefare").value = `INR ${baseFee}`;
+    }
 
-        const addon = document.querySelector('input[name="addon"]');
-        function applyCoupen() {
-            let coupenList = ['svkcv1899'];
-            const referralField = document.getElementById("referralCodeId").value;
-            if (referralField !== '' && referralField !== undefined) {
-                const referralCode = referralField.toLowerCase();
-                if (coupenList.includes(referralCode)) {
-                    console.log("Referral code matched!");
-                    isCoupenApplied = true;
-                    calculateFee();
-                } else {
-                    console.log("Invalid referral code!");
-                    isCoupenApplied = false;
-                    calculateFee();
-                }
+    // function nextStep(step) {
+    //     let currentStep;
+    //     if (step === 1) currentStep = document.getElementById('step1');
+    //     else if (step === 2) currentStep = document.getElementById('step2');
 
-            }
-        }
+    //     // Validate current step fields before proceeding
+    //     if (currentStep) {
+    //         const inputs = currentStep.querySelectorAll("input, select, textarea, radio");
+    //         for (let input of inputs) {
+    //             if (!input.checkValidity()) {
+    //                 input.reportValidity(); // show error
+    //                 return; // stop going to next step
+    //             }
+    //         }
+    //     }
 
+    //     // Hide all steps
+    //     document.getElementById('step1').style.display = 'none';
+    //     document.getElementById('step2').style.display = 'none';
+    //     document.getElementById('step3').style.display = 'none';
 
-        function calculateFee() {
-            let baseFee = 0;
-        
-            const selectedProgram = document.querySelector(
-                'input[name="programType"]:checked'
-            );
-        
-            if (!selectedProgram) {
-                document.getElementById("basefare").value = "INR 0";
-                return;
-            }
-        
-            const catValue = selectedProgram.value;
-        
-            if (catValue === "Level 1") {
-                baseFee = 1999;
-            } else if (catValue === "Level 2") {
-                baseFee = 2799;
-            }
-        
-            document.getElementById("basefare").value = `INR ${baseFee}`;
-        }
-
-        // function nextStep(step) {
-        //     let currentStep;
-        //     if (step === 1) currentStep = document.getElementById('step1');
-        //     else if (step === 2) currentStep = document.getElementById('step2');
-
-        //     // Validate current step fields before proceeding
-        //     if (currentStep) {
-        //         const inputs = currentStep.querySelectorAll("input, select, textarea, radio");
-        //         for (let input of inputs) {
-        //             if (!input.checkValidity()) {
-        //                 input.reportValidity(); // show error
-        //                 return; // stop going to next step
-        //             }
-        //         }
-        //     }
-
-        //     // Hide all steps
-        //     document.getElementById('step1').style.display = 'none';
-        //     document.getElementById('step2').style.display = 'none';
-        //     document.getElementById('step3').style.display = 'none';
-
-        //     // Show selected step
-        //     if (step === 0) document.getElementById('step1').style.display = 'block';
-        //     if (step === 1) document.getElementById('step2').style.display = 'block';
-        //     if (step === 2) document.getElementById('step3').style.display = 'block';
-        // }
+    //     // Show selected step
+    //     if (step === 0) document.getElementById('step1').style.display = 'block';
+    //     if (step === 1) document.getElementById('step2').style.display = 'block';
+    //     if (step === 2) document.getElementById('step3').style.display = 'block';
+    // }
     </script>
 
 </body>
